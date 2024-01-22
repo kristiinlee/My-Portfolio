@@ -9,19 +9,21 @@ body {
     font-family: var(--default-font-family);
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4, h5 {
     font-weight: bold;
     font-family: var(--heading-font-family)
 }
 
 p {
+    font-weight: normal;
+    font-size: 16px;
     font-family: var(--default-font-family);
 }
 
 .hero {
     background: var(--branding-color);
     text-align: center;
-    padding: 160px 0;
+    padding: 160px 20px;
 }
 
 .hero h1 {
@@ -46,4 +48,52 @@ p {
     font-size: 18px;
     line-height: 27px;
     padding: 18px 20px;
+}
+
+.btn-branding:hover {
+    border-color: black;
+    border-radius: 4px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.card-body {
+    background: var(--branding-color);
+}
+
+.btn-primary {
+    background: black;
+    color: white;
+    border-color: black;
+    border-radius: 4px;
+    display: block;
+}
+
+.btn-primary:hover {
+    background: var(--branding-color);
+    border-radius: 4px;
+    border-color: black;
+    color: black;
+}
+
+.card-title {
+    font-size: 30px;
+}
+
+@media (max-width: 900px) {
+    .hero {
+        padding: 90px 10px;
+    }
+    
+    h1 {
+        font-size: 45px;
+    }
+
+    h2 {
+        font-size: 40px*;
+    }
+
 }
