@@ -84,6 +84,10 @@ p {
     font-size: 30px;
 }
 
+footer {
+    background: var(--branding-color);
+}
+
 @media (max-width: 900px) {
     .hero {
         padding: 90px 10px;
