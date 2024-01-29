@@ -101,4 +101,27 @@ footer {
         font-size: 40px*;
     }
 
+    .about-section {
+        text-align: center;
+        padding: 0;
+    }
+}
+
+.about-section {
+    padding: 140px 20px;
+}
+
+.about-section h1 {
+    font-size: 64;
+    line-height: 80px;
+}
+
+.about-section h2 {
+    font-size: 18px;
+    font-family: var(--default-font-family);
+}
+
+.about-section img {
+    border-radius: 4px;
+    margin: 30px;
 }
