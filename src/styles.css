@@ -145,3 +145,15 @@ content p {
 .content {
     margin: 30px;
 }
+
+.contact-container {
+    padding: 140px 20px;
+}
+.contact {
+    text-align: center;
+}
+
+.contact a {
+    text-decoration: none;
+    color: var(--secondary-color);
+}
