@@ -43,6 +43,7 @@ p {
 }
 
 .btn-branding {
+    text-decoration: none;
     background: var(--secondary-color);
     border-radius: 4px;
     color: white;
