@@ -158,3 +158,11 @@ content p {
     text-decoration: none;
     color: var(--secondary-color);
 }
+
+img {
+    transition: transform 150ms ease-in-out;
+}
+img:hover {
+    filter: contrast(80%);
+    transform: scale(1.05);
+}
