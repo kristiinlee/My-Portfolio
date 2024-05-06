@@ -20,10 +20,14 @@ p {
     font-family: var(--default-font-family);
 }
 
+
 .hero {
-    background: var(--branding-color);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+      url("../images/flower.png");
+      background-size: cover;
     text-align: center;
     padding: 160px 20px;
+    color: var(--branding-color);
 }
 
 .hero h1 {
