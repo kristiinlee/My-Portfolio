@@ -170,3 +170,8 @@ img:hover {
     filter: contrast(80%);
     transform: scale(1.05);
 }
+
+.logo {
+    width: 150px;
+    transition: none;
+}
